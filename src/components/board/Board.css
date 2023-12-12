@@ -1,0 +1,19 @@
+.timer-text {
+    font-size: 2.7rem;
+}
+
+.timer-label {
+    font-size: 2.5rem;
+}
+
+.score-board {
+    display: flex;
+}
+
+.score-board > div {
+    margin: 0 1rem;
+}
+
+.more-flags-error {
+    color: darkred;
+}
