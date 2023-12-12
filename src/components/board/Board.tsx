@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../state/store';
 import { setBoard, setGameState, setNumberOfMines } from '../../state/game/gameSlice';
 import { Difficulty } from '../../models/Difficulty';
-import { ScoreBoard } from './ScoreBoard';
+import { ScoreBoard } from './subcomponents/ScoreBoard';
 
 function Board() {
     const dispatch = useDispatch();

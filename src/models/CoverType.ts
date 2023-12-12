@@ -1,0 +1,1 @@
+export type CoverType = 'undiscovered' | 'flagged' | 'discovered';

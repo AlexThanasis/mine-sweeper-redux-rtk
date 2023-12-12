@@ -33,35 +33,32 @@
   justify-content: space-between;
 }
 
+.btn-difficulty {
+  background-color: brown;
+  color: white;
+}
+
 .btn {
   padding: 1rem;
   min-width: 18rem;
-}
-
-.btn-difficulty {
-  background-color: brown;
-  border-radius: 3px;
-  color: white;
-  transition: all .3s;
-}
-
-.btn-difficulty:hover {
-  transform: scale(1.1) translateY(-.5rem);
-}
-
-.info {
-  padding: 1rem;
-  min-width: 18rem;
   border-radius: 3px;
   color: white;
 }
 
-.info__won {
+.btn__won {
   background-color: darkslateblue;
 }
 
-.info__lost {
+.btn__lost {
   background-color: darkslategray;
+}
+
+.btn__restart {
+  background-color: darkmagenta;
+}
+
+.btn__restart:hover {
+  transform: scale(1.1) translateY(.5rem);
 }
 
 .info-text {

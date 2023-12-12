@@ -71,7 +71,7 @@ interface GameState {
     },
   });
 
-  // later it can be moved into the setCell function body
+  // later it can be moved into the setCell function body, yet this logic is handled in the Board component
   const isGameWon = (flags: number, mines: number, gameBoard: CellModel[][]): boolean => {
     return flags === mines && gameBoard!.flat().filter((cell: CellModel) => cell.covered === 'flagged').every((cell: CellModel) => cell.isMine);
   }

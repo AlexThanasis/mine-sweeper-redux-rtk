@@ -1,5 +1,7 @@
+import { CoverType } from "./CoverType";
+
 export interface Cell {
-    covered: 'undiscovered' | 'flagged' | 'discovered';
+    covered: CoverType;
     isMine: boolean;
     surroundingMines?: number;
     isClicked?: boolean;
